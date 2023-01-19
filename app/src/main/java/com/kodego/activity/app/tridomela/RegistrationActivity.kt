@@ -35,9 +35,6 @@ class RegistrationActivity : AppCompatActivity() {
     }
 
     private fun performSignUp() {
-//        binding.etUsernameEmailRegister.text.toString()
-//        binding.etPasswordRegister.text.toString()
-
         if(binding.etUsernameEmailRegister.text.isEmpty() || binding.etPasswordRegister.text.isEmpty()){
             Toast.makeText(applicationContext,"Please fill-up all fields!", Toast.LENGTH_SHORT).show()
             return
@@ -49,7 +46,7 @@ class RegistrationActivity : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
-                    val intent = Intent(this, MainActivity::class.java)
+                    val intent = Intent(this, LoginActivity::class.java)
                     startActivity(intent)
                     Toast.makeText(applicationContext,"Successfully created new account!", Toast.LENGTH_SHORT).show()
                 } else {
