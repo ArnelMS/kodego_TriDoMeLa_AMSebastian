@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "328925665501",
+    "project_id": "tridomela",
+    "storage_bucket": "tridomela.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328925665501:android:899ef58a0fde6dea75e334",
+        "android_client_info": {
+          "package_name": "com.kodego.activity.app.tridomela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328925665501-0gr9rucri8jp45jjhqjafsa83fficmv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_pjGPc4oIe19xmYUZ99I_jVVJyY-0m1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328925665501-0gr9rucri8jp45jjhqjafsa83fficmv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
