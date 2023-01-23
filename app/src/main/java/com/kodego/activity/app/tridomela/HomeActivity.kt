@@ -1,20 +1,18 @@
 package com.kodego.activity.app.tridomela
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
-import com.kodego.activity.app.tridomela.databinding.ActivityMainBinding
+import com.kodego.activity.app.tridomela.databinding.ActivityHomeBinding
 
-class MainActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityMainBinding
+class HomeActivity : AppCompatActivity() {
+
+    lateinit var binding : ActivityHomeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         val fragmentOne = FragmentOne()
         val fragmentTwo = FragmentTwo()
@@ -44,5 +42,6 @@ class MainActivity : AppCompatActivity() {
                 commit()
             }
         }
+
     }
 }

@@ -35,7 +35,8 @@
         android:paddingStart="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvRegister" />
+        app:layout_constraintTop_toBottomOf="@+id/tvRegister"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -50,7 +51,8 @@
         android:paddingStart="20dp"
         app:layout_constraintEnd_toEndOf="@+id/etUsernameEmail"
         app:layout_constraintStart_toStartOf="@+id/etUsernameEmail"
-        app:layout_constraintTop_toBottomOf="@+id/etUsernameEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/etUsernameEmail"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/tvRegisterNow"
